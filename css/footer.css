@@ -1,0 +1,29 @@
+.footer {
+    text-align: center;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #4949be, #586dd3, #7090e4, #8fb2f3, #b5d3ff);
+    padding: 20px;
+    margin-top: 50px;
+    border-top: solid #2b2b8f;
+}
+
+.footer::first-line {
+    word-spacing: 10px;
+}
+
+.footer__link {
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+}
+
+.footer__link:visited {
+    font-style: none;
+}
+
+.footer__link:hover {
+    color: #292929;
+}
+
+.footer__link:focus {
+    color: blue;
+}

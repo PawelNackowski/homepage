@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-image: linear-gradient(to left bottom, #f4f4e6, #e3ede2, #d5e6e0, #cbddde, #c5d4db, #bec9d2, #b7bfc8, #b0b4be, #a3a7b0, #969aa3, #898d96, #7d8089);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #080818;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.image {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(155, 155, 155);
+    border-width: 3px;
+    box-shadow: 9px -3px 18px 0px #181818;
+}
+
+.imagePosition {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    color: #eee;
+    border-bottom: solid #2b2b8f;
+    border-width: 2px;
+    padding: 20px;
+    margin: 0px;
+    background: linear-gradient(0deg, rgba(73, 73, 190, 1) 0%, rgb(42, 42, 99) 50%, rgba(73, 73, 190, 1) 100%);
+    border: solid;
+    border-color: rgba(29, 29, 29, 0.685);
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 9px -3px 18px 0px #181818;
+}
+
+.subHeder {
+    color: #eee;
+    margin: 50px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(73, 73, 190, 1) 0%, rgba(0, 0, 94, 1) 50%, rgba(73, 73, 190, 1) 100%);
+    border: solid;
+    border-color: rgba(29, 29, 29, 0.685);
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 9px -3px 18px 0px #181818;
+    padding: 5px;
+    margin: 40px
+}
+
+.hiden {
+    display: none;
+}
+
+.buttonTable {
+    margin: 20px;
+    color: #eee;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: linear-gradient(0deg, rgba(73, 73, 190, 1) 0%, rgba(0, 0, 94, 1) 50%, rgba(73, 73, 190, 1) 100%);
+}
+
+.butonTable:hover {
+    background: rgba(73, 73, 190, 1);
+}
+
+.text__code {
+    color: rgb(233, 190, 0);
+}

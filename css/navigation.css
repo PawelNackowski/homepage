@@ -1,0 +1,40 @@
+.navigation {
+  margin: 0px auto;
+  text-align: center;
+  color: #eee;
+  font-weight: bold;
+  border-bottom: solid rgba(29, 29, 29, 0.685);
+  border-width: 2px;
+  border-end-end-radius: 5px;
+  border-end-start-radius: 5px;
+  background-color: #4949be
+}
+
+.navigation__list {
+  display: inline;
+  text-align: center;
+  list-style: none;
+}
+
+.navigation__listButton {
+  font-size: 15px;
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  border: solid black;
+  border-radius: 5px;
+  border-width: 2px;
+  background: linear-gradient(0deg, rgba(73, 73, 190, 1) 0%, rgba(0, 0, 94, 1) 50%, rgba(73, 73, 190, 1) 100%);
+  box-shadow: 2px -3px 10px 0px #181818;
+  padding: 10px;
+}
+
+.navigation__item {
+  text-decoration: none;
+  color: #eee;
+}
+
+.navigation__item:hover {
+  color: #a3a7b0;
+}

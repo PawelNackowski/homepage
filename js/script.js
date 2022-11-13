@@ -5,10 +5,10 @@
 
     const onShowTableOnClick = () => {
         const buttonText = document.querySelector(".js-buttonText");
-        const tableHiden = document.querySelector(".js-hiden");
+        const tableHidden = document.querySelector(".js-hidden");
 
-        tableHiden.classList.toggle("hiden");
-        buttonText.innerText = tableHiden.classList.contains("hiden") ? "Pokaż tabelę" : "Ukryj Tabelę";
+        tableHidden.classList.toggle("hidden");
+        buttonText.innerText = tableHidden.classList.contains("hidden") ? "Pokaż tabelę" : "Ukryj Tabelę";
     };
 
     const init = () => {

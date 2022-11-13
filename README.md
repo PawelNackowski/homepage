@@ -1,5 +1,7 @@
-# homepage
+# Pawel Nackowski - my website
 Hi. Welcome to my first website in course YouCode. On this page you can you see among overs elements such as: list, table button, links, function in JavaScript and style in CSS.
+
+![Website](/images/demo.png)
 
 ### Future
 Website is a constantly developed so you come back later to see what's new. 
